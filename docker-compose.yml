@@ -1,0 +1,7 @@
+services:
+  apresentacao-executiva-ti:
+    build: .
+    container_name: apresentacao-executiva-ti-hcb
+    restart: unless-stopped
+    ports:
+      - "8084:80"
